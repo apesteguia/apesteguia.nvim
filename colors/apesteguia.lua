@@ -8,7 +8,7 @@ local g = colorbuddy.groups
 local s = colorbuddy.styles
 
 Color.new("white", "#f2e5bc")
-Color.new("red", "#782C1B")
+Color.new("red", "#A94C3B")
 Color.new("pink", "#f8fe7a")
 Color.new("green", "#747C2C")
 Color.new("yellow", "#DFB546")
@@ -30,11 +30,11 @@ Color.new("gray0", background_string)
 Group.new("Normal", c.superwhite, c.gray0)
 
 Group.new("@constant", c.orange, nil, s.none)
-Group.new("@function", c.red, nil, s.none)
+Group.new("@function", c.yellow, nil, s.none)
 Group.new("@function.bracket", g.Normal, g.Normal)
-Group.new("@keyword", c.yellow, nil, s.none)
+Group.new("@keyword", c.red, nil, s.none)
 Group.new("@keyword.faded", g.nontext.fg:light(), nil, s.none)
-Group.new("@property", c.green)
+Group.new("@property", c.aqua)
 Group.new("@variable", c.superwhite, nil)
 Group.new("@variable.builtin", c.red:light():light(), g.Normal)
 
