@@ -20,8 +20,8 @@ Color.new("violet", "#DFB546")
 Color.new("orange", "#de935f")
 Color.new("brown", "#a3685a")
 
-Color.new("seagreen", "#698b69")
-Color.new("turquoise", "#698b69")
+Color.new("seagreen", "#8ec07c")
+Color.new("turquoise", "#8ec07c")
 
 local background_string = "#1E2021"
 Color.new("background", background_string)
@@ -30,11 +30,11 @@ Color.new("gray0", background_string)
 Group.new("Normal", c.superwhite, c.gray0)
 
 Group.new("@constant", c.yellow, nil, s.none)
-Group.new("@function", c.yellow, nil, s.none)
+Group.new("@function", c.aqua, nil, s.none)
 Group.new("@function.bracket", g.Normal, g.Normal)
 Group.new("@keyword", c.red, nil, s.none)
 Group.new("@keyword.faded", g.nontext.fg:light(), nil, s.none)
-Group.new("@property", c.superwhite)
+Group.new("@property", c.cyan)
 Group.new("@variable", c.superwhite, nil)
 Group.new("@variable.builtin", c.red:light():light(), g.Normal)
 
