@@ -23,7 +23,7 @@ Color.new("brown", "#8abeb7")
 Color.new("seagreen", "#8ec07c")
 Color.new("turquoise", "#8ec07c")
 
-local background_string = "#121314"
+local background_string = "#191a1c"
 Color.new("background", background_string)
 Color.new("gray0", background_string)
 
