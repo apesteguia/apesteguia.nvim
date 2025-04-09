@@ -8,10 +8,10 @@ local g = colorbuddy.groups
 local s = colorbuddy.styles
 
 Color.new("white", "#f2e5bc")
-Color.new("red", "#cc6666")
-Color.new("pink", "#fef601")
-Color.new("green", "#99cc99")
-Color.new("yellow", "#f8fe7a")
+Color.new("red", "#782C1B")
+Color.new("pink", "#f8fe7a")
+Color.new("green", "#747C2C")
+Color.new("yellow", "#DFB546")
 Color.new("blue", "#81a2be")
 Color.new("aqua", "#8ec07c")
 Color.new("cyan", "#8abeb7")
