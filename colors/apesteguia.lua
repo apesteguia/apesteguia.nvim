@@ -1,5 +1,6 @@
-local colorbuddy = require("colorbuddy")
+require("colorbuddy").colorscheme("apesteguia")
 
+local colorbuddy = require("colorbuddy")
 local Color = colorbuddy.Color
 local Group = colorbuddy.Group
 local c = colorbuddy.colors
