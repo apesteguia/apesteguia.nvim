@@ -16,7 +16,7 @@ Color.new("blue", "#81a2be")
 Color.new("aqua", "#8ec07c")
 Color.new("cyan", "#8abeb7")
 Color.new("purple", "#DFB546")
-Color.new("violet", "#b294bb")
+Color.new("violet", "#DFB546")
 Color.new("orange", "#de935f")
 Color.new("brown", "#a3685a")
 
@@ -29,12 +29,12 @@ Color.new("gray0", background_string)
 
 Group.new("Normal", c.superwhite, c.gray0)
 
-Group.new("@constant", c.orange, nil, s.none)
+Group.new("@constant", c.yellow, nil, s.none)
 Group.new("@function", c.yellow, nil, s.none)
 Group.new("@function.bracket", g.Normal, g.Normal)
 Group.new("@keyword", c.red, nil, s.none)
 Group.new("@keyword.faded", g.nontext.fg:light(), nil, s.none)
-Group.new("@property", c.aqua)
+Group.new("@property", c.superwhite)
 Group.new("@variable", c.superwhite, nil)
 Group.new("@variable.builtin", c.red:light():light(), g.Normal)
 
