@@ -30,13 +30,13 @@ Color.new("gray0", background_string)
 Group.new("Normal", c.superwhite, c.gray0)
 
 Group.new("@constant", c.orange, nil, s.none)
-Group.new("@function", c.yellow, nil, s.none)
+Group.new("@function", c.red, nil, s.none)
 Group.new("@function.bracket", g.Normal, g.Normal)
-Group.new("@keyword", c.violet, nil, s.none)
+Group.new("@keyword", c.yellow, nil, s.none)
 Group.new("@keyword.faded", g.nontext.fg:light(), nil, s.none)
-Group.new("@property", c.blue)
+Group.new("@property", c.green)
 Group.new("@variable", c.superwhite, nil)
-Group.new("@variable.builtin", c.purple:light():light(), g.Normal)
+Group.new("@variable.builtin", c.red:light():light(), g.Normal)
 
 -- I've always liked lua function calls to be blue. I don't know why.
 Group.new("@function.call.lua", c.blue:dark(), nil, nil)
