@@ -8,9 +8,9 @@ local g = colorbuddy.groups
 local s = colorbuddy.styles
 
 Color.new("white", "#f2e5bc")
-Color.new("red", "#A94C3B")
+Color.new("red", "#c95d4a")
 Color.new("pink", "#f8fe7a")
-Color.new("green", "#747C2C")
+Color.new("green", "#8ec07c")
 Color.new("yellow", "#DFB546")
 Color.new("blue", "#81a2be")
 Color.new("aqua", "#8ec07c")
@@ -23,7 +23,7 @@ Color.new("brown", "#8abeb7")
 Color.new("seagreen", "#8ec07c")
 Color.new("turquoise", "#8ec07c")
 
-local background_string = "#1E2021"
+local background_string = "#1a2021"
 Color.new("background", background_string)
 Color.new("gray0", background_string)
 
